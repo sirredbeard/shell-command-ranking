@@ -2,7 +2,7 @@
 
 ## ranking.sh
 
-* gets top 2500 github repos labeled as containing "shell" ranked by github stars
+* gets top 1000 github repos labeled as containing "shell" ranked by github stars, 10 batches of 100 at a time, with a random sleep to avoid the github rate limit
 * exports a list of those repos to repo_list.txt
 * shallow clones each of them to /repos
 * calls clean_repos.sh on each one to remove extraneous files to save space
