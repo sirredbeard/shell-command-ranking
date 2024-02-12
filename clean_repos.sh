@@ -130,6 +130,23 @@ file_extensions=(
     "xz"
     "mk"
     "edn"
+    "ebuild"
+    "glyph"
+    "pnach"
+    "bin
+    "dll"
+    "netset"
+    "deb"
+    "install"
+    "gitkeep"
+    "var"
+    "diff"
+    "tpl"
+    "config"
+    "rasi"
+    "el"
+    "dts"
+    "initd"
 )
 
 # Get the directory to search from the command-line argument, or default to "repos"
