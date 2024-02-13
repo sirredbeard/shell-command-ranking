@@ -1,9 +1,11 @@
  https://github.com/direnv/direnv.git
  https://github.com/jlevy/the-art-of-command-line.git
  https://github.com/junegunn/fzf.git
+ https://github.com/neurobin/shc.git
  https://github.com/ohmyzsh/ohmyzsh.git
 https://github.com/007revad/Synology_HDD_db.git
 https://github.com/0bman/dotfiles.git
+https://github.com/0mp/vipe.sh.git
 https://github.com/0n1cOn3/FluxER.git
 https://github.com/0rax/fish-bd.git
 https://github.com/0rax/fishline.git
@@ -26,6 +28,8 @@ https://github.com/2KAbhishek/starship2k.git
 https://github.com/2KAbhishek/termux2k.git
 https://github.com/3coma3/btrfs-backup.git
 https://github.com/3rfaan/arch-everforest.git
+https://github.com/3uryd1ce/dotfiles.git
+https://github.com/3uryd1ce/sysadm.git
 https://github.com/3v1n0/zsh-bash-completions-fallback.git
 https://github.com/421p/FFS.git
 https://github.com/4lgn/dotfiles.git
@@ -88,6 +92,7 @@ https://github.com/BEPb/BEPb.git
 https://github.com/BLACK-SCORP10/Email-Vulnerablity-Checker.git
 https://github.com/BachoSeven/dotfiles.git
 https://github.com/BartSte/fzf-help.git
+https://github.com/BarudakRosul/shell-compiler.git
 https://github.com/Bash-it/bash-it.git
 https://github.com/BashSupport/BashSupport.git
 https://github.com/Bashfuscator/Bashfuscator.git
@@ -166,6 +171,7 @@ https://github.com/Cyclenerd/postinstall.git
 https://github.com/Cyclenerd/static_status.git
 https://github.com/D1j1t0/OmniShell.git
 https://github.com/D3Ext/WEF.git
+https://github.com/D5Nch3ck/dotfiles.git
 https://github.com/DDoSolitary/LxRunOffline.git
 https://github.com/DP-3T/documents.git
 https://github.com/DZPeru/fishv4.git
@@ -183,6 +189,7 @@ https://github.com/Dbz/kube-aliases.git
 https://github.com/DecaTec/Nextcloud-Backup-Restore.git
 https://github.com/Delta456/box-cli-maker.git
 https://github.com/DemisR/mac-devops-setup.git
+https://github.com/DesantBucie/korny.git
 https://github.com/DeterminateSystems/nuenv.git
 https://github.com/DevOps-Projects-Ideas/DevOps-Books.git
 https://github.com/DevOpsHiveHQ/kubech.git
@@ -218,6 +225,8 @@ https://github.com/FabioAntunes/dotfiles.git
 https://github.com/FabioAntunes/fish-nvm.git
 https://github.com/FabioLolix/LinuxTimeline.git
 https://github.com/Fadi002/unshackle.git
+https://github.com/FajarKim/bz2-shell.git
+https://github.com/FajarKim/lzip-shell.git
 https://github.com/Fakerr/git-recall.git
 https://github.com/Fakerr/goto.git
 https://github.com/Falldot/dotfiles.git
@@ -228,6 +237,7 @@ https://github.com/Fitus/Zaloha.sh.git
 https://github.com/Fitus/Zaloha2.sh.git
 https://github.com/FlechazoPh/QLDependency.git
 https://github.com/Fmstrat/winapps.git
+https://github.com/Fratepietro87/script.git
 https://github.com/Freed-Wu/fzf-tab-source.git
 https://github.com/FrenzyExists/Nord-dotfiles-i3.git
 https://github.com/Fresh4774/FishTank.git
@@ -286,6 +296,7 @@ https://github.com/Honestpuck/apple_complete.git
 https://github.com/HugoBlox/awesome-hugo.git
 https://github.com/Hyde46/hoard.git
 https://github.com/IBM/clai.git
+https://github.com/IanDarwin/obscripts.git
 https://github.com/IlanCosman/scuba.git
 https://github.com/IlanCosman/tide.git
 https://github.com/InferiorAK/Mi-TermBuild.git
@@ -358,11 +369,13 @@ https://github.com/LIU-WEIHUA/unix_shell_plugins_setup.git
 https://github.com/LSPosed/MagiskOnWSALocal.git
 https://github.com/Ladicle/fish-kubectl-prompt.git
 https://github.com/Ladicle/git-prompt.git
+https://github.com/Lajule/auto.git
 https://github.com/LazoCoder/Pokemon-Terminal.git
 https://github.com/LeCoupa/awesome-cheatsheets.git
 https://github.com/LeartS/dotfiles.git
 https://github.com/Leif160519/ansible-linux.git
 https://github.com/Link-/gh-token.git
+https://github.com/Linux-Moles/Linux-Moles.git
 https://github.com/Lissy93/dotfiles.git
 https://github.com/Lissy93/minimal-terminal-prompt.git
 https://github.com/LkeMitchll/Dotfiles.git
@@ -388,6 +401,8 @@ https://github.com/MalteWillmes/IsoFishR.git
 https://github.com/ManasHarsh/Cobra.git
 https://github.com/Mangeshrex/rxfetch.git
 https://github.com/MarcelRobitaille/dotfiles.git
+https://github.com/Massas/Db2_event_monitor_operation_tool.git
+https://github.com/Massas/shellscript.git
 https://github.com/MasterDevX/Termux-ADB.git
 https://github.com/MatMoul/archfi.git
 https://github.com/Mathijs-Bakker/dotfiles.git
@@ -414,6 +429,7 @@ https://github.com/MikeMcQuaid/dotfiles.git
 https://github.com/MikeMcQuaid/strap.git
 https://github.com/MinetestForFun/fishing.git
 https://github.com/Minituff/nautical-backup.git
+https://github.com/MirBSD/mksh.git
 https://github.com/MitchTalmadge/dotfiles.git
 https://github.com/Moarram/headline.git
 https://github.com/MoodyReaper/dotfiles.git
@@ -438,6 +454,8 @@ https://github.com/NayamAmarshe/please.git
 https://github.com/NeQuissimus/DevSetup.git
 https://github.com/Nemoden/dotfiles.old.git
 https://github.com/Netherdrake/Dotfiles.git
+https://github.com/Neved4/color.sh.git
+https://github.com/Neved4/grok.sh.git
 https://github.com/NicholasTD07/dotfiles.git
 https://github.com/NikaGoldring/multi-species-PBTK.git
 https://github.com/NikiforovAll/dotfiles.git
@@ -518,6 +536,7 @@ https://github.com/Realiserad/fish-ai.git
 https://github.com/RealityNet/ios_triage.git https://github.com/jhubig/FritzBoxShell.git
 https://github.com/Red5d/pushbullet-bash.git
 https://github.com/RedMooner/FishTank-DesktopWallpaper.git
+https://github.com/Redama-la-red-que-te-ama/ara-a-clientes.git
 https://github.com/RehabMan/OS-X-Clover-Laptop-Config.git
 https://github.com/RehanSaeed/Bash-Cheat-Sheet.git
 https://github.com/Releem/mysqlconfigurer.git
@@ -620,6 +639,7 @@ https://github.com/Veirt/web-search.fish.git
 https://github.com/Ventto/batify.git
 https://github.com/Vets-Who-Code/web-curriculum.git
 https://github.com/Vets-Who-Code/windows-dev-guide.git
+https://github.com/Victxrlarixs/OpenBSD.git
 https://github.com/VitalyAnkh/config.git
 https://github.com/VladimirPapazov88/Everforest-Hyprland.git
 https://github.com/Vonng/pigsty.git
@@ -666,12 +686,14 @@ https://github.com/ZZROTDesign/docker-clean.git
 https://github.com/Zeranoe/mingw-w64-build.git
 https://github.com/ZhongXiLu/dotfiles.git
 https://github.com/ZuBB/dotfiles.git
+https://github.com/a1ecbr0wn/pshell.git
 https://github.com/aabs/fisher-plugin.git
 https://github.com/aaronbates/dotfiles.git
 https://github.com/aaronsky/fish-vscode.git
 https://github.com/aatxe/dotfiles.git
 https://github.com/abathur/resholve.git
 https://github.com/abbasnaqdi/nekoray-macos.git
+https://github.com/abbotto/shell-api.git
 https://github.com/abcdw/rde.git
 https://github.com/abekoh/dotfiles.git
 https://github.com/abemassry/wsend.git
@@ -680,6 +702,7 @@ https://github.com/abhigenie92/zsh_to_fish.git https://github.com/pirate/fish-ut
 https://github.com/abiosoft/dotfiles.git
 https://github.com/abobija/idfx.git
 https://github.com/abourdon/shprofile.git
+https://github.com/abraham-ukachi/shell.git
 https://github.com/abs-lang/abs.git
 https://github.com/achiurizo/dotfiles.git
 https://github.com/acmesh-official/acme.sh.git
@@ -717,6 +740,7 @@ https://github.com/agarrharr/settings.git
 https://github.com/agg23/FINes.git
 https://github.com/agjacome/dotfiles.git
 https://github.com/agkozak/agkozak-zsh-prompt.git
+https://github.com/agkozak/polyglot.git
 https://github.com/agkozak/polyglot.git https://github.com/marlonrichert/zsh-launchpad.git
 https://github.com/agkozak/zcomet.git
 https://github.com/agkozak/zhooks.git
@@ -758,6 +782,7 @@ https://github.com/alexdelorenzo/onhold.git
 https://github.com/alexis-moins/dotfiles.git
 https://github.com/alexiszamanidis/zsh-git-fzf.git
 https://github.com/alexjohnj/dotfiles.git
+https://github.com/alexmigit/hp-ux-oracle-rm-files.git        
 https://github.com/alfunx/.dotfiles.git
 https://github.com/alicfeng/AShell.git
 https://github.com/alphazero-wd/fish-shell-wsl.git
@@ -820,6 +845,7 @@ https://github.com/aqzt/kjyw.git
 https://github.com/arakasi72/rtinst.git
 https://github.com/arch-anes/dotfiles.git
 https://github.com/archcraft-os/archcraft.git
+https://github.com/archernar/cuu.git
 https://github.com/archlinuxcn/repo.git
 https://github.com/ardagnir/athame.git
 https://github.com/arhea/dotfiles.git
@@ -855,7 +881,9 @@ https://github.com/athena-oss/athena.git
 https://github.com/athul/shelby.git
 https://github.com/atmoz/sftp.git
 https://github.com/atomantic/dotfiles.git
+https://github.com/att/ast.git
 https://github.com/atuinsh/atuin.git
+https://github.com/audioscavenger/exploit.git
 https://github.com/aurora/rmate.git
 https://github.com/autowarefoundation/autoware.git
 https://github.com/aviaryan/awesome-no-login-web-apps.git
@@ -900,8 +928,10 @@ https://github.com/barnard33-233/af-magic-fish.git
 https://github.com/barryclark/bashstrap.git
 https://github.com/barrykn/big-sur-micropatcher.git
 https://github.com/base-org/node.git
+https://github.com/base-ux/shell-scripts.git
 https://github.com/basecamp/xip-pdns.git
 https://github.com/bash-bastion/basalt.git
+https://github.com/bash-bastion/shelltest.git
 https://github.com/bash-lsp/bash-language-server.git
 https://github.com/bash-my-aws/bash-my-aws.git
 https://github.com/basherpm/basher.git
@@ -1040,6 +1070,7 @@ https://github.com/cdimascio/lambda-zsh-theme.git
 https://github.com/cdleon/awesome-terminals.git
 https://github.com/cds-amal/fzf-eip.git
 https://github.com/ceff-tech/belleflopt.git
+https://github.com/cemontijo/nix-setup.git
 https://github.com/centminmod/centminmod.git
 https://github.com/cepdnaclk/e16-3yp-automatic-fish-tank-control-system.git
 https://github.com/ceph/ceph-container.git
@@ -1093,6 +1124,7 @@ https://github.com/cloudy1gor/dotfiles.git
 https://github.com/clu3bot/owt.git
 https://github.com/clvv/fasd.git
 https://github.com/cmilr/Git-Beautify-For-MacOS-Terminal.git
+https://github.com/cnescatlab/sonar-icode-cnes-plugin.git
 https://github.com/coatless-mac/r-macos-rtools.git
 https://github.com/coco33920/.files.git
 https://github.com/coddra/dotfiles.git
@@ -1199,6 +1231,7 @@ https://github.com/ddvk/remarkable-hacks.git
 https://github.com/ddworken/hishtory.git
 https://github.com/debian-pi/raspbian-ua-netinst.git
 https://github.com/dehydrated-io/dehydrated.git
+https://github.com/deisenhardt/date14.git
 https://github.com/deluan/zsh-in-docker.git
 https://github.com/demartini/dc.fish.git
 https://github.com/demartini/emc.fish.git
@@ -1298,6 +1331,8 @@ https://github.com/dotstrap/ansible-fish.git
 https://github.com/dotzenith/dotconfig.git
 https://github.com/dperson/samba.git
 https://github.com/dpgraham4401/.dotfiles.git
+https://github.com/dpremy/dot-ksh.git
+https://github.com/dracorp/log4sh.git
 https://github.com/dracula/fish.git
 https://github.com/dracula/zsh.git
 https://github.com/dragoonDorise/EmuDeck.git
@@ -1332,6 +1367,7 @@ https://github.com/dwg255/fish.git
 https://github.com/dwisiswant0/awesome-oneliner-bugbounty.git
 https://github.com/dwmkerr/effective-shell.git
 https://github.com/dwmkerr/hacker-laws.git
+https://github.com/dxnst/dotfiles.git
 https://github.com/dylanaraps/bin.git
 https://github.com/dylanaraps/birch.git
 https://github.com/dylanaraps/fff.git
@@ -1429,7 +1465,9 @@ https://github.com/excalith/.dotfiles.git
 https://github.com/externl/fish-symnav.git
 https://github.com/extrawurst/gitui.git
 https://github.com/fa7ad/myconfig.git
+https://github.com/fabioesantos/Dotfiles.git
 https://github.com/facebookarchive/caffe2.git
+https://github.com/facelessfish/hw_sensors_exporter.git
 https://github.com/falsovsky/FiSH-irssi.git
 https://github.com/fantastic-kit/fantastic-kit.git
 https://github.com/fantasy0x1/dotfiles.git
@@ -1520,6 +1558,7 @@ https://github.com/gabebw/dotfiles.git
 https://github.com/gabrielelana/awesome-terminal-fonts.git
 https://github.com/gabrielzschmitz/dotfiles.git
 https://github.com/gagansday/.dotfiles.git
+https://github.com/gall0ws/sh.git
 https://github.com/gantsign/ansible_role_antigen.git
 https://github.com/gaoyifan/china-operator-ip.git
 https://github.com/garrylachman/covid19-cli.git
@@ -1594,6 +1633,7 @@ https://github.com/govolution/avet.git
 https://github.com/gpoore/codebraid.git
 https://github.com/graahnul-grom/fzf-csh.git
 https://github.com/graphql/graphql-spec.git
+https://github.com/grayed/shellweb.git
 https://github.com/greenled/portainer-stack-utils.git
 https://github.com/gregorias/blueutil.fish.git
 https://github.com/gregorias/bookmarks.fish.git https://github.com/avimehenwal/git-refresh.git
@@ -1663,6 +1703,8 @@ https://github.com/hamsternik/dotfiles.git
 https://github.com/haoel/haoel.github.io.git
 https://github.com/hardware/mailserver.git
 https://github.com/harmenjanssen/dotfiles.git
+https://github.com/harmim/vut-ios-project-1.git
+https://github.com/harperlangston/HotShell.git
 https://github.com/harsilspatel/dotfiles.git
 https://github.com/hassio-addons/bashio.git
 https://github.com/haugene/docker-transmission-openvpn.git
@@ -1728,6 +1770,7 @@ https://github.com/htr-tech/unfollow-plus.git
 https://github.com/htr3n/zsh-config.git
 https://github.com/huan/docker-wechat.git
 https://github.com/huang-qing/timeline.git
+https://github.com/hugojosefson/realpath-compat.git
 https://github.com/hugolgst/.files.git
 https://github.com/hunterunger/gpt-cli-assistant.git
 https://github.com/huntie/dotfiles.git
@@ -1748,6 +1791,7 @@ https://github.com/iamturns/terminal-setup.git
 https://github.com/iancleary/ubuntu-dev-playbook.git
 https://github.com/ianthehenry/sd.git
 https://github.com/ianthehenry/zsh-autoquoter.git
+https://github.com/ibara/oksh.git
 https://github.com/ibracorp/ibramenu.git
 https://github.com/icy/bash-coding-style.git
 https://github.com/icy/bocker.git
@@ -1793,6 +1837,8 @@ https://github.com/irfansharif/dotfiles.git
 https://github.com/iridakos/bash-completion-tutorial.git
 https://github.com/iridakos/goto.git
 https://github.com/iridakos/stup.git
+https://github.com/iriven/ShellLibrairies.git
+https://github.com/irx/pwrln.git
 https://github.com/isaacs/nave.git
 https://github.com/isacikgoz/sashimi.git
 https://github.com/isaksolheim/dotfiles.git
@@ -1819,6 +1865,7 @@ https://github.com/jackharrisonsherlock/common.git
 https://github.com/jacksonblankenship/dotfiles.git
 https://github.com/jacobalberty/unifi-docker.git
 https://github.com/jacobwgillespie/dotfiles.git
+https://github.com/jacre8/jkparse.git
 https://github.com/jakewmeyer/Geo.git
 https://github.com/jakewmeyer/Ruby-Scripts.git
 https://github.com/jakubnabrdalik/gitkurwa.git
@@ -1859,6 +1906,7 @@ https://github.com/jessfraz/dotfiles.git
 https://github.com/jethrokuan/z.git
 https://github.com/jghoman/awesome-apache-airflow.git
 https://github.com/jgierer12/.config.git
+https://github.com/jgtaylor/intellistrip.git
 https://github.com/jhillyerd/plugin-git.git
 https://github.com/jichu4n/fish-command-timer.git
 https://github.com/jieverson/dotfiles-win.git
@@ -1889,6 +1937,9 @@ https://github.com/joggrdocs/hitchhikers-guide-to-docs.git
 https://github.com/johackim/dotfiles.git
 https://github.com/johanhaleby/kubetail.git
 https://github.com/johanson/theme-johanson.git
+https://github.com/joknarf/cdhist.git
+https://github.com/joknarf/nerdps1.git
+https://github.com/joknarf/selector.git
 https://github.com/jonasjacek/colors.git
 https://github.com/joncinque/pomo.fish.git
 https://github.com/jonmosco/kube-ps1.git
@@ -1934,6 +1985,7 @@ https://github.com/jsamr/bootiso.git
 https://github.com/jsatk/dotfiles.git
 https://github.com/jschaf/dotfiles.git
 https://github.com/jscutlery/nx-completion.git
+https://github.com/jsffeng/quickRCP.git
 https://github.com/jsks/czhttpd.git
 https://github.com/jstrieb/just.sh.git
 https://github.com/jswny/dotfiles-old.git
@@ -1986,6 +2038,7 @@ https://github.com/kavinvin/dotfiles.git
 https://github.com/kawamataryo/dotfiles.git
 https://github.com/kazhala/dotbare.git
 https://github.com/kboghdady/youTube_ads_4_pi-hole.git
+https://github.com/kcollett/shell-config.git
 https://github.com/kdabir/has.git
 https://github.com/kdeldycke/dotfiles.git
 https://github.com/keaising/dotfile.git
@@ -2033,8 +2086,13 @@ https://github.com/klanchman/dotfiles.git
 https://github.com/kleinee/jns.git
 https://github.com/kleutzinger/dotfiles.git
 https://github.com/kloetzl/biozsh.git
+https://github.com/kmonticolo/OpenBSD.git
+https://github.com/knonm/unix-utils.git
 https://github.com/knpwrs/dotfiles.git
 https://github.com/ko1nksm/getoptions.git
+https://github.com/ko1nksm/sh-base64.git
+https://github.com/ko1nksm/sh-hmac-sha1.git
+https://github.com/ko1nksm/sh-i18n.git
 https://github.com/ko1nksm/shdotenv.git
 https://github.com/koalaman/shellcheck.git
 https://github.com/kobanyan/tide-asdf-items.git
@@ -2059,6 +2117,10 @@ https://github.com/krmbzds/dotfiles.git
 https://github.com/ksandermann/cloud-toolbox.git
 https://github.com/kscripting/kscript.git
 https://github.com/ksevelyar/idempotent-desktop.git
+https://github.com/ksh-community/docs.git
+https://github.com/ksh-community/ksh.git
+https://github.com/ksh-community/shbench.git
+https://github.com/kshji/ksh.git
 https://github.com/kubecolor/kubecolor.git
 https://github.com/kubernetes-retired/kubeadm-dind-cluster.git
 https://github.com/kubernetes-sigs/nfs-subdir-external-provisioner.git
@@ -2085,6 +2147,7 @@ https://github.com/labbots/bash-utility.git
 https://github.com/labbots/google-drive-upload.git
 https://github.com/laggardkernel/git-ignore.git
 https://github.com/laggardkernel/zsh-thefuck.git
+https://github.com/lagunetero91/ScriptsKSH.git https://github.com/randyamiel/bash-windows-powershell-cmds.git
 https://github.com/laixintao/myrc.git
 https://github.com/lakshayg/tensorflow-build-archived.git
 https://github.com/lalakii/fedora_40_minimal_orangepizero3.git
@@ -2104,6 +2167,7 @@ https://github.com/laughedelic/fish_logo.git
 https://github.com/laughedelic/pisces.git
 https://github.com/laurent22/rsync-time-backup.git
 https://github.com/lavabit/robox.git
+https://github.com/ldilley/adventofcode.git
 https://github.com/leana8959/.files.git
 https://github.com/learnbyexample/Command-line-text-processing.git
 https://github.com/learnbyexample/command_help.git
@@ -2113,6 +2177,7 @@ https://github.com/lee2sman/dotfiles.git
 https://github.com/leebaird/discover.git
 https://github.com/lefayjey/linWinPwn.git
 https://github.com/leitbogioro/Tools.git
+https://github.com/lendenmc/dotfiles.git
 https://github.com/lengyijun/fc-fish.git
 https://github.com/lennardv2/ehh.git
 https://github.com/lensesio/fast-data-dev.git
@@ -2237,6 +2302,7 @@ https://github.com/marzocchi/zsh-notify.git
 https://github.com/masonr/PLEXiDRIVE.git
 https://github.com/masonr/yet-another-bench-script.git
 https://github.com/matchai/spacefish.git
+https://github.com/math-for-shell/iq4sh.git
 https://github.com/math0ne/dotfiles.git
 https://github.com/mathiasbynens/dotfiles.git
 https://github.com/mathiasbynens/evil.sh.git
@@ -2334,6 +2400,7 @@ https://github.com/minamarkham/dotfiles.git
 https://github.com/minamarkham/formation.git
 https://github.com/mindawei/aliyun-safe-match.git
 https://github.com/mingj7235/JAVA.git
+https://github.com/mirabilos/shellsnippets.git
 https://github.com/miripiruni/frontdesk.git
 https://github.com/mishakorzik/AllHackingTools.git
 https://github.com/mislav/dotfiles.git
@@ -2365,9 +2432,11 @@ https://github.com/moonglum/dotfiles.git
 https://github.com/moovweb/gvm.git
 https://github.com/mopsicus/unity-build-pipeline.git
 https://github.com/motolla/dotfiles.git
+https://github.com/mountaineerbr/shellDatediff.git
 https://github.com/moustacheful/myrmidon.git
 https://github.com/mozilla-b2g/B2G.git
 https://github.com/mpolden/fish.git
+https://github.com/mportizlunyov/update_full-unix.git
 https://github.com/mr-pmillz/pimp-my-shell.git
 https://github.com/mr-zorbot/MyDotFiles.git
 https://github.com/mrjohannchang/fz.sh.git
@@ -2553,6 +2622,7 @@ https://github.com/oknozor/dotfiles.git
 https://github.com/oldratlee/hacker-quotes.git
 https://github.com/oldratlee/useful-scripts.git
 https://github.com/olets/zsh-abbr.git
+https://github.com/olets/zsh-test-runner.git
 https://github.com/olets/zsh-window-title.git
 https://github.com/olexsmir/dotfiles.git
 https://github.com/olimorris/dotfiles.git
@@ -2616,6 +2686,7 @@ https://github.com/pawelma/.dotfiles.git
 https://github.com/paxtonhare/demo-magic.git
 https://github.com/paysonwallach/fish-you-should-use.git
 https://github.com/pch/welder.git
+https://github.com/peetrike/shell-p.git
 https://github.com/perlpunk/App-Spec-p5.git
 https://github.com/perlpunk/shell-completions.git
 https://github.com/perryprog/cowshell.git
@@ -2646,6 +2717,7 @@ https://github.com/pi-hole/PADD.git
 https://github.com/pi-hole/docker-pi-hole.git
 https://github.com/pi-hole/pi-hole.git
 https://github.com/picodotdev/alis.git
+https://github.com/piedpiper358/system-software.git
 https://github.com/pierpo/fzf-docker.git
 https://github.com/piffall/PXESetupWizard.git
 https://github.com/pigoz/dotfiles.git
@@ -2665,6 +2737,7 @@ https://github.com/pivotal/workstation-setup.git
 https://github.com/pivpn/pivpn.git
 https://github.com/pjfancher/dotfiles.git
 https://github.com/pjvds/dotfiles.git
+https://github.com/pkoprda/vutfit-ios-project1.git
 https://github.com/pkosiec/terminer.git
 https://github.com/plainas/icl.git
 https://github.com/plexguide/PlexGuide.com.git
@@ -2678,6 +2751,7 @@ https://github.com/polybar/polybar-scripts.git
 https://github.com/ponko2/deoplete-fish.git
 https://github.com/pontikis/bash-cloud-backup.git
 https://github.com/popstas/zsh-command-time.git
+https://github.com/posguy99/dotfiles.git
 https://github.com/posixpascal/dotfiles.git
 https://github.com/posquit0/zshrc.git
 https://github.com/postmodern/chruby.git
@@ -2687,6 +2761,7 @@ https://github.com/pote/gpm.git
 https://github.com/powerline/fonts.git
 https://github.com/powerline/powerline.git
 https://github.com/powerman/wcwidth-icons.git
+https://github.com/prahou/teige.git
 https://github.com/prajwalpd7/BashBlaze-7-Days-of-Bash-Scripting-Challenge.git
 https://github.com/prasanthrangan/hyprdots.git
 https://github.com/praveenpuglia/uses.git
@@ -2720,6 +2795,7 @@ https://github.com/pystardust/ani-cli.git
 https://github.com/pystardust/ytfzf.git
 https://github.com/pythops/workstation.git
 https://github.com/q3aql/dotfiles.git
+https://github.com/qbit/ohmyksh.git
 https://github.com/qiuxiang/flutter-fish-completions.git
 https://github.com/qjcg/shell-examples.git
 https://github.com/qoomon/zsh-lazyload.git
@@ -2782,6 +2858,7 @@ https://github.com/react-native-community/rn-diff-purge.git
 https://github.com/realeroberto/bashlets.git
 https://github.com/rebootuser/LinEnum.git
 https://github.com/redcode-labs/Bashark.git
+https://github.com/redeltaglio/OpenBSD-private-CA.git
 https://github.com/redis/redis-doc.git
 https://github.com/rednafi/rush.git
 https://github.com/redox-os/redox.git
@@ -2827,6 +2904,7 @@ https://github.com/ritchieng/deep-learning-wizard.git
 https://github.com/riteshsp2000/dotfiles.git
 https://github.com/rkage/dotfiles.git
 https://github.com/rkalis/dotfiles.git
+https://github.com/rkitover/sh-prompt-simple.git
 https://github.com/rmm5t/dotfiles.git
 https://github.com/rnnh/bioinfo-notebook.git
 https://github.com/robb/dotfiles.git
@@ -2835,6 +2913,7 @@ https://github.com/robsonraphael/My-Dotfiles.git
 https://github.com/robwhitby/shakedown.git
 https://github.com/rocker-org/rocker.git
 https://github.com/rocketshipapps/adblockfast.git
+https://github.com/rocky/kshdb.git
 https://github.com/rocky/zshdb.git
 https://github.com/rockymadden/circleci-cli.git
 https://github.com/rockymadden/slack-cli.git
@@ -2883,6 +2962,7 @@ https://github.com/rtrouton/rtrouton_scripts.git
 https://github.com/ru-de/faq.git
 https://github.com/ruanbekker/cheatsheets.git
 https://github.com/ruanyf/simple-bash-scripts.git
+https://github.com/rubenerd/dotfiles-desu.git
 https://github.com/rudenkornk/dotfiles.git
 https://github.com/rufengsuixing/luci-app-adguardhome.git
 https://github.com/run-ai/genv.git
@@ -2927,6 +3007,7 @@ https://github.com/samtap/fang-hacks.git
 https://github.com/samuelramox/wsl-setup.git
 https://github.com/sanhphanvan96/notes.git
 https://github.com/sapegin/dotfiles.git
+https://github.com/sarvex/ksh125.git
 https://github.com/sarvex/tcsh125.git
 https://github.com/savq/dotfiles.git
 https://github.com/sawadashota/go-task-completions.git
@@ -2968,6 +3049,11 @@ https://github.com/sei40kr/fish-ranger-cd.git
 https://github.com/sei40kr/zsh-fast-alias-tips.git
 https://github.com/semanser/dotfiles.git
 https://github.com/semaperepelitsa/chruby-fish.git
+https://github.com/sergiotocalini/habbixy.git
+https://github.com/sergiotocalini/resource-agents.git
+https://github.com/sergiotocalini/zabora.git
+https://github.com/sergiotocalini/zapgix.git
+https://github.com/sergiotocalini/zedisx.git
 https://github.com/serversideup/docker-php.git
 https://github.com/sevapp/shelly.git
 https://github.com/severen/dotfiles.git
@@ -2987,6 +3073,7 @@ https://github.com/shelldandy/dotfiles.git
 https://github.com/shellfire-dev/shellfire.git
 https://github.com/shelljs/shelljs.git
 https://github.com/shelljs/shx.git
+https://github.com/shellspec/shellbench.git
 https://github.com/shellspec/shellmetrics.git
 https://github.com/shellspec/shellspec.git
 https://github.com/shengxinjing/programmer-job-blacklist.git
@@ -3205,7 +3292,9 @@ https://github.com/thecodrr/boxx.git
 https://github.com/thecodrr/covyd.git https://github.com/kpbaks/autols.fish.git
 https://github.com/thedevdojo/larasail.git
 https://github.com/themattrix/bash-concurrent.git
+https://github.com/thepiyush/stdlibs.git
 https://github.com/theshteves/commit-bot.git
+https://github.com/thexhr/config.git
 https://github.com/thiagokokada/zit.git
 https://github.com/thiagowfx/.dotfiles.git
 https://github.com/thibmaek/awesome-raspberry-pi.git
@@ -3327,6 +3416,7 @@ https://github.com/unixorn/zsh-quickstart-kit.git
 https://github.com/unkn0w/noobs.git
 https://github.com/unterwegi/dotfiles.git
 https://github.com/upamune/fish-todoist.git
+https://github.com/upperstream/dotfiles.git
 https://github.com/urbanadventurer/Android-PIN-Bruteforce.git
 https://github.com/usagi/rust-memory-container-cs.git
 https://github.com/user1121114685/koolproxyR.git
@@ -3341,6 +3431,7 @@ https://github.com/v5tech/notes.git
 https://github.com/vaamonde/ubuntu-1804.git
 https://github.com/vaamonde/ubuntu-2004.git
 https://github.com/vadviktor/bullettrain-go-core.git
+https://github.com/vaidis/OpenBSD-Port-Opener.git
 https://github.com/varbhat/dotfiles.git
 https://github.com/varun-ramani/ZConfer.git
 https://github.com/vastutsav/command-line-quick-reference.git
@@ -3462,6 +3553,7 @@ https://github.com/wulfgarpro/history-sync.git
 https://github.com/wunki/dotfiles.git
 https://github.com/wurstmeister/kafka-docker.git
 https://github.com/wvanlint/twf.git
+https://github.com/wyatt8740/xwdui.git
 https://github.com/wzhouwzhou/one-line-wonders.git
 https://github.com/wzykubek/botfiles.git
 https://github.com/x2on/OpenSSL-for-iPhone.git https://github.com/tmux-plugins/tmux-yank.git
@@ -3530,6 +3622,7 @@ https://github.com/yoannfleurydev/dotfiles.git
 https://github.com/yonggekkk/Doprax-Xray.git
 https://github.com/youngyangyang04/leetcode-master.git
 https://github.com/yous/vanilli.sh.git
+https://github.com/ysomad/project-initializer.git
 https://github.com/ysxninja/shell-scripts.git
 https://github.com/ytet5uy4/fzf-widgets.git
 https://github.com/yuhonas/zsh-ansimotd.git
