@@ -1,35 +1,35 @@
-if: 281615
-fi: 261674
-echo: 259125
-local: 138696
-else: 86377
+if: 281630
+fi: 261689
+echo: 259180
+local: 138700
+else: 86384
 complete: 71786
-set: 61959
+set: 61960
 mv: 58839
-export: 52652
+export: 52653
+done: 49701
 function: 49698
-done: 49697
 return: 47993
-for: 38380
-printf: 36637
-exit: 35765
+for: 38383
+printf: 36640
+exit: 35767
 elif: 32894
 __________________________________________________________________________________________________: 30037
-rm: 28498
-sed: 27737
-mkdir: 26629
+rm: 28512
+sed: 27738
+mkdir: 26630
 sudo: 26020
-cat: 25749
+cat: 25751
 end: 23591
 case: 23553
 cp: 21568
-unset: 20732
+unset: 20735
 esac: 19914
 shift: 19689
 put_template: 16796
-then: 16652
+then: 16666
 cd: 16205
-while: 15198
+while: 15200
 EOF: 14208
 sleep: 13530
 alias: 13518
@@ -43,9 +43,9 @@ insert: 10075
 route: 9767
 kubectl: 9307
 source: 9270
-chmod: 9109
+chmod: 9111
 git: 8224
-make: 8142
+make: 8144
 utils: 7431
 put_template_custom: 7360
 info: 7336
@@ -55,9 +55,9 @@ log: 6524
 systemctl: 6394
 data: 5940
 declare: 5788
-do: 5776
+do: 5779
 break: 5721
-grep: 5487
+grep: 5506
 ln: 5453
 apt: 5325
 emoji: 5274
@@ -67,7 +67,7 @@ error: 5021
 touch: 4796
 continue: 4644
 wget: 4636
-find: 4362
+find: 4363
 RetroArch_setOverride: 4270
 print: 4255
 docker: 4208
@@ -77,8 +77,8 @@ put_template_var: 3990
 dir: 3943
 perl: 3857
 true: 3745
+debug: 3614
 name: 3613
-debug: 3613
 tar: 3479
 assertEquals: 3437
 false: 3398
@@ -100,7 +100,7 @@ result: 2648
 popd: 2629
 _debug: 2552
 TERMUX_PKG_VERSION: 2541
-trap: 2534
+trap: 2535
 retry: 2520
 TERMUX_PKG_DESCRIPTION: 2496
 TERMUX_PKG_HOMEPAGE: 2495
@@ -116,19 +116,19 @@ CXX: 2355
 python3: 2299
 fn_dngbin2: 2287
 insert_resources: 2277
+clear: 2274
 FC: 2274
 CXX98: 2273
 CXX14: 2273
 CXX11: 2273
-clear: 2272
 echo_content: 2261
 print_validation_error: 2240
 cmd: 2205
 1: 2163
-green: 2112
+green: 2113
 stderr_print: 2085
 cecho: 2025
-PATH: 2000
+PATH: 2001
 stage: 1998
 exp: 1991
 run: 1987
@@ -163,8 +163,8 @@ print_message: 1552
 0: 1549
 tr: 1479
 python: 1478
+i: 1477
 R: 1477
-i: 1475
 nj: 1467
 logWarn: 1457
 __put_template_custom: 1456
@@ -241,7 +241,7 @@ debug_execute: 923
 assert: 907
 msg_info: 905
 ast: 902
-a: 899
+a: 900
 zstyle: 892
 jq: 892
 update: 878
@@ -283,20 +283,20 @@ openssl: 761
 group: 760
 updateOctory: 759
 nnet: 755
+BUFFER: 748
 mapfile: 747
 grepit_search: 747
-BUFFER: 747
 out: 746
 run_test: 745
 host: 734
 x: 732
 tail: 723
 ip: 722
-red: 719
+red: 720
 AC: 716
 useradd: 709
 silphonelist: 707
-id: 705
+id: 707
 sh: 700
 error_code: 699
 ark: 696
@@ -335,8 +335,8 @@ autoload: 595
 DIR: 595
 ARCH: 595
 fileout: 592
+diff: 591
 until: 589
-diff: 587
 web_server_reload: 586
 expected_region_highlight: 586
 env: 584
@@ -394,7 +394,7 @@ color13: 506
 color12: 506
 color11: 506
 color10: 506
-yellow: 501
+yellow: 502
 install_name_tool: 501
 argparse: 497
 phpEnvironmentVariable: 495
@@ -504,9 +504,9 @@ header: 404
 _saveaccountconf_mutable: 404
 mode: 403
 frames_per_chunk: 403
+f: 401
 SH5: 401
 SH1: 401
-f: 400
 reply: 398
 ensure_web_server_app_configuration_exists: 398
 share: 393
@@ -563,15 +563,15 @@ password: 358
 os: 358
 setup: 357
 load: 357
+l: 357
 deprecationNotice: 357
 A: 357
-l: 356
 src_url: 355
 select: 355
 is_empty_value: 355
+NAME: 355
 IP: 355
 YELLOW: 354
-NAME: 354
 y: 353
 proxy_set_header: 353
 PACKAGES: 353
@@ -608,8 +608,8 @@ TERMUX_PKG_LICENSE_FILE: 338
 ExecStart: 337
 t: 336
 major: 336
+init: 336
 import: 336
-init: 335
 train_ivector_dir: 332
 db: 332
 dialog: 329
@@ -618,8 +618,8 @@ TERMUX_PKG_BREAKS: 328
 termux_step_post_get_source: 327
 archurl: 327
 Context: 327
+run_script: 326
 style: 325
-run_script: 325
 print_ln: 325
 mock: 324
 autoreconf: 324
@@ -817,11 +817,11 @@ spaceship: 249
 ruby: 249
 catch_errors: 249
 build_libtool_libs: 249
+blue: 248
 RETVAL: 248
 spec: 247
 nspk: 247
 kernel: 247
-blue: 247
 termux_step_post_make_install: 246
 download_file: 246
 db_host: 246
@@ -1285,6 +1285,7 @@ PORT: 158
 APP: 158
 wait_panes_separation: 157
 linear_opts: 157
+fzf: 157
 extra_config: 157
 dlfiles: 157
 blehook: 157
@@ -1294,7 +1295,6 @@ use_gpu: 156
 uci: 156
 math: 156
 hosts: 156
-fzf: 156
 enterprise_texts: 156
 begin_test: 156
 PRINT: 156
@@ -2191,6 +2191,7 @@ tmpfile_handle: 81
 set_env_arg: 81
 rp_callModule: 81
 pr_bold: 81
+ok: 81
 func_quote_for_eval: 81
 func_error: 81
 console_results: 81
@@ -2242,7 +2243,6 @@ validate_parameter: 79
 test_description: 79
 sph2pipe: 79
 print_test_case: 79
-ok: 79
 num_utts: 79
 map: 79
 jq_filter: 79
@@ -2449,6 +2449,7 @@ CreateLink: 72
 CONTAINERD_DID_MIGRATE_FROM_DOCKER: 72
 xdotool: 71
 write_conf_value: 71
+tree: 71
 stdout: 71
 ssl: 71
 progress: 71
@@ -2493,7 +2494,6 @@ LOGO: 70
 EXISTING_POD_CIDR: 70
 BeforeCall: 70
 used: 69
-tree: 69
 tm_out: 69
 shellspec_output: 69
 separator: 69
@@ -2831,6 +2831,7 @@ sort_buffer_size: 59
 rook_versions: 59
 required: 59
 pkg_src: 59
+normal: 59
 nProcs: 59
 mysql_update_custom_config: 59
 mysql_healthcheck: 59
@@ -2869,7 +2870,6 @@ reload: 58
 pyenv: 58
 prompt_segment: 58
 paths: 58
-normal: 58
 lets_dst_root_ca_fix: 58
 kotsadm_api_patch_s3_migration: 58
 gccdevtools: 58
@@ -2937,6 +2937,7 @@ assert_success: 57
 apiPod: 57
 __git_command_successful: 57
 SE_OPTS: 57
+RM: 57
 REDHAT_SEVEN: 57
 PROJECT: 57
 MINIO_NAMESPACE: 57
@@ -3005,7 +3006,6 @@ Source: 56
 SET: 56
 SERVERHOSTNAME: 56
 ReturnedValue: 56
-RM: 56
 PTIME_SEC: 56
 PASS: 56
 Output_Error: 56
@@ -3722,6 +3722,7 @@ upload_box: 42
 updateToolArguments: 42
 tstamp: 42
 test_eq: 42
+task: 42
 sslvhostsetup: 42
 split_wavfiles: 42
 split_scps: 42
@@ -3796,7 +3797,6 @@ ver_string: 41
 trojan_panel_current_version: 41
 test_name: 41
 temp_xrpath: 41
-task: 41
 ssl_protocols: 41
 root_password: 41
 rescue: 41
@@ -4846,6 +4846,7 @@ PHP_main_ver: 32
 OPT: 32
 NEWDT: 32
 MAIN_REPOSITORY: 32
+LINES: 32
 EXP: 32
 ENV_SET: 32
 DRAW_BUFF: 32
@@ -5040,6 +5041,7 @@ imap: 30
 hl: 30
 highlights: 30
 has: 30
+gsed: 30
 gpu_opt: 30
 got: 30
 good: 30
@@ -5100,7 +5102,6 @@ PHP_POOL_DIR: 30
 PACKAGE_HOME: 30
 OUT_DIR: 30
 Motorola: 30
-LINES: 30
 LD_PRELOAD: 30
 INITRD: 30
 ICON_DISCHRG: 30
@@ -5184,7 +5185,6 @@ i386: 29
 html: 29
 hosted_build_regex: 29
 hidden_dim: 29
-gsed: 29
 get_latest_version: 29
 get_arch: 29
 extract: 29
@@ -5454,6 +5454,7 @@ IMG: 28
 However: 28
 Host: 28
 HOST_LINE: 28
+GREP: 28
 GITINSTALLED: 28
 GETCPU_SCRIPT: 28
 FMW_HOME: 28
@@ -5581,6 +5582,7 @@ _tide_decolor: 27
 __warn: 27
 _EOT_: 27
 Xto: 27
+TESTS: 27
 SYSINFO_SCRIPT: 27
 SYS: 27
 SS_LIB: 27
@@ -5615,7 +5617,6 @@ LATEST: 27
 KexAlgorithms: 27
 JAVA_OPT: 27
 INDEX_PATCH_HOME: 27
-GREP: 27
 First: 27
 FORCE_REBOOT: 27
 FIRSTRUN_SCRIPT: 27
@@ -5801,7 +5802,6 @@ V2rayUnlockVideoSiteRuleText: 26
 Tip: 26
 TZ: 26
 THEME_CLOCK_COLOR: 26
-TESTS: 26
 TERMUX_PKG_PROVIDES: 26
 TERMUX_PKG_ESSENTIAL: 26
 ScrDir: 26
@@ -6790,6 +6790,7 @@ STARTING: 22
 SSID: 22
 SOURCEFILE: 22
 SIGNAL: 22
+SED: 22
 SCM_STATE: 22
 REQUIRED_SPACE_GB: 22
 RELATIVE: 22
@@ -6894,6 +6895,7 @@ yad: 21
 wlst: 21
 widgets_to_bind: 21
 whois: 21
+welcome: 21
 vulns_menu: 21
 utf8_locale: 21
 user_total: 21
@@ -7145,7 +7147,6 @@ xlinker: 20
 xcrun: 20
 write_iredmail_kv: 20
 wep_script_processes: 20
-welcome: 20
 warn_msg: 20
 wait_for_symlink: 20
 vocab_size: 20
@@ -7291,6 +7292,7 @@ newlib: 20
 nerr: 20
 need_locks: 20
 ncurses: 20
+nb: 20
 name_save: 20
 mysqldump: 20
 mock_docker_label_lines: 20
@@ -7484,6 +7486,7 @@ SOURCES: 20
 SESSION_ID: 20
 SERVICE_NAME: 20
 SERVICE: 20
+SC: 20
 Result_Systeminfo_isPhysical: 20
 Required: 20
 Region: 20
@@ -7649,7 +7652,6 @@ newlib_opts: 19
 newargz: 19
 neofetch: 19
 nc_update: 19
-nb: 19
 native: 19
 my_cmd: 19
 model_flags: 19
@@ -7802,8 +7804,6 @@ SUCH: 19
 SO_FILE: 19
 SMTP: 19
 SHELLSPEC_META: 19
-SED: 19
-SC: 19
 SAVEHIST: 19
 PROXY: 19
 POWERLEVEL9K_INSTANT_PROMPT: 19
@@ -8572,6 +8572,7 @@ ALL_LIBS: 17
 xform: 16
 xclip: 16
 write_to_file: 16
+write_test_result: 16
 write_plugin: 16
 wrap: 16
 win32_libid_type: 16
@@ -8984,6 +8985,7 @@ IFACE: 16
 Homepage: 16
 HEX: 16
 HELPERS_DIR: 16
+HEAD: 16
 GOROOT: 16
 GITHUB_USER: 16
 GEM: 16
@@ -9006,6 +9008,7 @@ DEP_ERROR: 16
 DEMYX_CONFIG_COMPOSE: 16
 DEFINE_ERROR_EXIT: 16
 DEFINE_CONDITION: 16
+CLEAN: 16
 CFG_FILE: 16
 CARGO_NET_GIT_FETCH_WITH_CLI: 16
 CARGO_HOME: 16
@@ -9463,7 +9466,6 @@ HTTP_VERSION: 15
 HTTP_KEEP_ALIVE: 15
 HTTP_BODY_SIZE: 15
 HTML_CACHE: 15
-HEAD: 15
 GPRINT: 15
 GCC_RELEASE_DATE: 15
 GATEWAY: 15
@@ -9497,7 +9499,6 @@ CONFIGURE_FLAGS: 15
 COMPILER: 15
 COMMAND_OUTPUT: 15
 COLOR_RESET: 15
-CLEAN: 15
 Bash: 15
 BBR_installation_status: 15
 BASEPATH: 15
@@ -10514,6 +10515,7 @@ CheckV6: 13
 CheckV4: 13
 CWD_THEME_PROMPT_COLOR: 13
 CURR: 13
+CP: 13
 CONTEXT: 13
 CONTAINER_IMAGE: 13
 CONFIGURED_ANYTHING: 13
@@ -11468,7 +11470,6 @@ Centos_yum: 12
 Categories: 12
 CYGWIN: 12
 CTID_MENU: 12
-CP: 12
 CORPUS: 12
 COOKIES: 12
 CONTAINER_NAME: 12
@@ -12047,6 +12048,7 @@ ThemeSet: 11
 TanhComponent: 11
 TRIES: 11
 TRG_PATH: 11
+TR: 11
 TP_DATA: 11
 TOOL_ROOT: 11
 THEME: 11
@@ -12195,6 +12197,7 @@ MULTILINE_NEWLINE_PROMPT_PREFIX: 11
 MULTILINE_LAST_PROMPT_PREFIX: 11
 MONGODB_PORT_NUMBER: 11
 MODULE: 11
+MKDIR: 11
 MIMETYPE: 11
 MASTER_USER: 11
 MASTER_PORT: 11
@@ -13181,7 +13184,6 @@ TROJAN_PANEL_CORE_LOGS: 10
 TROJAN_PANEL_CORE_DATA: 10
 TROJAN_PANEL_CORE_CONFIG: 10
 TROJAN_PANEL_CONFIG: 10
-TR: 10
 TPM_DIR: 10
 TOFUENV_VERSION: 10
 TMP_PATH: 10
@@ -13295,7 +13297,6 @@ MOUNT: 10
 MONITOR: 10
 MONGODB_SHELL_DATABASE_ROOT_USER: 10
 MONGODB_SHELL_DATABASE_ROOT_PASSWORD: 10
-MKDIR: 10
 MAX: 10
 MASTER_IP: 10
 MARIA_DATA: 10
@@ -14313,6 +14314,7 @@ WINEPREFIXES_TYPE: 9
 WINEPREFIXES_DRIVER: 9
 WERROR_CFLAGS: 9
 WD_EXIT_CODE: 9
+WC: 9
 WALLET_PWD: 9
 VVV_LOG: 9
 VVV_CONFIG: 9
@@ -14458,6 +14460,7 @@ RST: 9
 ROOT_DEV: 9
 RIGHT_PROMPT: 9
 RETURN_CODE_SUCCESS: 9
+RESULT_FILE: 9
 REQUEST_QUERY: 9
 REPOSITORY_NAME: 9
 REPORT_FILE: 9
@@ -16121,7 +16124,6 @@ WIFIVERSION: 8
 WHITEBG: 8
 WHAT: 8
 WEBRTC_REVISION: 8
-WC: 8
 Value_4: 8
 VPS_GEOIPCHECK_V4: 8
 VPS_GEOIPCHECK_V3: 8
@@ -16223,7 +16225,6 @@ Reads: 8
 RX: 8
 RSAAuthentication: 8
 ROOTPATH: 8
-RESULT_FILE: 8
 REPLY_INNER_CMD: 8
 REPLY1: 8
 REFtest_mustnotmatch: 8
@@ -23214,6 +23215,7 @@ local_umask: 5
 local_enable: 5
 local_cache: 5
 lobj: 5
+load_test: 5
 load_settings: 5
 load_local_versions: 5
 load_instance_config: 5
@@ -24899,6 +24901,7 @@ TERRAFORM_CHAR: 5
 TCP_CHECK: 5
 TCPKeepAlive: 5
 TB: 5
+TAIL: 5
 TAG_NAME: 5
 TA: 5
 T2: 5
@@ -25749,6 +25752,7 @@ CDC_HISTORY: 5
 CD1: 5
 CC_COLOR_RESET: 5
 CATV_EXP_RET: 5
+CAT: 5
 CAPTC: 5
 CAPSRC: 5
 CANARY: 5
@@ -31679,6 +31683,7 @@ WREM: 4
 WRAP_CMD: 4
 WRAPPER_SCRIPT_BELONGS_IN_OBJDIR: 4
 WRAPPER_CONF: 4
+WRAPPER: 4
 WPALIASCHECK: 4
 WORKDIR_DEBUG: 4
 WORDPRESS_USER_EMAIL: 4
@@ -31977,7 +31982,6 @@ TASK_INFO: 4
 TAR_ARGS: 4
 TARGET_Y: 4
 TARGET_COMPLETION_PATHS: 4
-TAIL: 4
 TAG_TYPE: 4
 TAGNAME: 4
 SystemLogWrite: 4
@@ -33669,6 +33673,7 @@ CHROOT: 4
 CHOSEN_STYLE: 4
 CHOSEN_OPENVPN_CONFIG: 4
 CHOSEN: 4
+CHMOD: 4
 CHECK_SCRIPT_CONF: 4
 CHECK_ONLY: 4
 CHECK_NGINX_PROCESS: 4
@@ -33702,7 +33707,6 @@ CC_COLOR_BLUE: 4
 CCTOOLSET: 4
 CATFOUND: 4
 CATDONE: 4
-CAT: 4
 CASSANDRA_SEEDS: 4
 CASSANDRA_PEERS: 4
 CASSANDRA_ENDPOINT_SNITCH: 4
@@ -42387,7 +42391,6 @@ WSL: 3
 WSGRP: 3
 WSA_MAJOR_VER: 3
 WRITE_BACKUP_SCRIPT: 3
-WRAPPER: 3
 WP_TYPE: 3
 WPSUBDIR: 3
 WPA: 3
@@ -45229,7 +45232,6 @@ CHTF_TERRAFORM_DIR: 3
 CHROMIUM_FLAGS: 3
 CHROMEDRIVER_VERSION: 3
 CHOSEN_KERNEL: 3
-CHMOD: 3
 CHECK_PIPALL_UPDATES: 3
 CHECK_PIPALL_INSTALLED: 3
 CHECK_PATH: 3
@@ -47935,6 +47937,9 @@ test_urlencode: 2
 test_urldecode: 2
 test_url: 2
 test_unsuccessful_plugin_uninstallation_via_script: 2
+test_unsetenv_builtins_3: 2
+test_unsetenv_builtins_2: 2
+test_unsetenv_builtins_1: 2
 test_uninstall: 2
 test_unfollow_flag_specific_shellcut_follow: 2
 test_unfollow_flag_default_follow: 2
@@ -47959,6 +47964,11 @@ test_skip_stopping_env: 2
 test_skip_containers: 2
 test_skip: 2
 test_simple_string: 2
+test_simple_exec_2: 2
+test_simple_exec_1: 2
+test_setenv_builtins_3: 2
+test_setenv_builtins_2: 2
+test_setenv_builtins_1: 2
 test_set_prereq: 2
 test_set_editor: 2
 test_set_custom_version: 2
@@ -48052,6 +48062,9 @@ test_jq: 2
 test_ip_local: 2
 test_ip_4: 2
 test_ip: 2
+test_invalid_command_3: 2
+test_invalid_command_2: 2
+test_invalid_command_1: 2
 test_init_todo: 2
 test_includes_in_one_line: 2
 test_include_whitespaces: 2
@@ -48128,6 +48141,10 @@ test_configs: 2
 test_compose_db_setup: 2
 test_commits_ahead_with_remote: 2
 test_cnt: 2
+test_cd_builtins_4: 2
+test_cd_builtins_3: 2
+test_cd_builtins_2: 2
+test_cd_builtins_1: 2
 test_cases: 2
 test_case: 2
 test_cargo_project: 2
@@ -52025,12 +52042,14 @@ prepare_tls_clienthello: 2
 prepare_text: 2
 prepare_tests: 2
 prepare_test_repo: 2
+prepare_test: 2
 prepare_temp_dir: 2
 prepare_target_source_dirs: 2
 prepare_system: 2
 prepare_sleep: 2
 prepare_run_data: 2
 prepare_root_cache: 2
+prepare_repo: 2
 prepare_partition: 2
 prepare_openMoji: 2
 prepare_mintty: 2
@@ -61637,6 +61656,7 @@ csv_b_i: 2
 csrf_header: 2
 csrName: 2
 csi_prow_kind_have_kubernetes: 2
+csh: 2
 csg: 2
 csfdeny_sshdlookups: 2
 csfdeny_iplookups: 2
@@ -70565,6 +70585,7 @@ SET_DEFAULT_MYSQLCHARSET: 2
 SET_ABCD: 2
 SETUP_RESOURCES_DIR: 2
 SETUP_FILE_MARKER: 2
+SETUP: 2
 SETTING: 2
 SETPERMS_RPM_DICT: 2
 SETENVPROXY: 2
@@ -75059,6 +75080,7 @@ FILE_MANAGER_CHECK: 2
 FILE_MANAGER: 2
 FILE_HISTORY: 2
 FILE_FORMAT: 2
+FILE_CMD: 2
 FILE_ATTR_VALUE: 2
 FILE_ARR_COUNT: 2
 FILE_ARR: 2
@@ -75233,6 +75255,7 @@ EXPRESS_DATABASE_PORT_NUMBER: 2
 EXPRESS_DATABASE_HOST: 2
 EXPRESSION: 2
 EXPRESS: 2
+EXPR: 2
 EXPORT_TYPE: 2
 EXPORT_ROOTFS_DIR: 2
 EXPORT_DIRS: 2
@@ -94851,6 +94874,7 @@ path_dest: 1
 path_date: 1
 path_dash: 1
 path_before: 1
+path_backup: 1
 path_attr: 1
 path_array: 1
 path_ans: 1
@@ -112853,6 +112877,7 @@ dontcare: 1
 dont_quote: 1
 dont_launch: 1
 dontSummarizeSizes: 1
+dont: 1
 donpapi: 1
 donotshift: 1
 donkey: 1
@@ -113759,6 +113784,7 @@ displayDateAndTime2: 1
 displayDate: 1
 displayDate3: 1
 displayDate2: 1
+disp_test: 1
 disoverride: 1
 disneyLinkRed: 1
 disneyLinkPrepare: 1
@@ -115960,7 +115986,6 @@ cshnullcmd: 1
 cshjunkiequotes: 1
 cshjunkieloops: 1
 cshjunkiehistory: 1
-csh: 1
 csgopuglatestlink: 1
 csgopuglatestfile: 1
 csgopuglatest: 1
@@ -132170,6 +132195,7 @@ TRAVIS_MIRROR: 1
 TRAVIS_HOST: 1
 TRAVIS: 1
 TRASHED: 1
+TRAPSIG: 1
 TRAPPED: 1
 TRAPCHLD: 1
 TRAP: 1
@@ -132846,6 +132872,7 @@ TDT_AUDIO: 1
 TDS_DIR: 1
 TDCONF: 1
 TCcKCQl9CgkJZWxzZWlmICgoJE50SGVhZGVyc0luZm8uSU1BR0VfTlRfSEVBREVSUy5GaWxlSGVh: 1
+TCSHUPDATE: 1
 TCRPFREESPACE: 1
 TCP_dynamicPort: 1
 TCP_TARGET: 1
@@ -135161,7 +135188,6 @@ SETUP_PART: 1
 SETUP_NOCHECK: 1
 SETUP_ENV: 1
 SETUPTOOLS_SCM_PRETEND_VERSION: 1
-SETUP: 1
 SETUID_NAME: 1
 SETUID: 1
 SETTINGS_PATH: 1
@@ -136678,6 +136704,7 @@ REFETCHTIME: 1
 REFERENCE_MODUL_LINK: 1
 REFERENCE_MODUL_EXT_LINK: 1
 REFERENCE_LINK: 1
+REFER: 1
 RED_YELLOW: 1
 RED_UNDERLINE: 1
 RED_TEXT: 1
@@ -140991,6 +141018,7 @@ MYSQLCONFIGURER_FILE_NAME: 1
 MYSQLCONFIGURER_CONFIGFILE: 1
 MYSQLADMIN_COMMAND: 1
 MYSQL2_GEM: 1
+MYSHELL: 1
 MYSH: 1
 MYSELF: 1
 MYPY_CACHE_DIRECTORY_PATH: 1
@@ -143297,6 +143325,7 @@ KEY_BUTTON3: 1
 KEY_BUTTON2: 1
 KEY_BUTTON1: 1
 KEY_ANSWER: 1
+KEY_2: 1
 KEYWORD_LOCATORS: 1
 KEYUNIFI: 1
 KEYTOOL: 1
@@ -146957,7 +146986,6 @@ FILE_DATE: 1
 FILE_CRONTAB: 1
 FILE_CONTENT: 1
 FILE_CONF: 1
-FILE_CMD: 1
 FILE_BIN_OUT: 1
 FILE_ATTR_NAME: 1
 FILE_ARRAY_VARIABLE_NAME: 1
@@ -147469,7 +147497,6 @@ EXPRESS_DEFAULT_POSTGRESQL_DATABASE_PORT_NUMBER: 1
 EXPRESS_DEFAULT_MYSQL_DATABASE_PORT_NUMBER: 1
 EXPRESS_DEFAULT_MONGODB_DATABASE_PORT_NUMBER: 1
 EXPRESS_DEFAULT_MARIADB_DATABASE_PORT_NUMBER: 1
-EXPR: 1
 EXPORT_STAGE: 1
 EXPORT_RANGE: 1
 EXPORT_PATH: 1
@@ -152118,6 +152145,8 @@ BUGSNAG_RELEASE_STAGE: 1
 BUGSNAG_BRANCH: 1
 BUGSNAG_API_KEY: 1
 BUFSIZE: 1
+BUFFER3: 1
+BUFFER2: 1
 BUFFALO_FILE_CHECK: 1
 BUFFALO_ENC_PATH_STRIPPED: 1
 BUFFALO_DECRYTED: 1
