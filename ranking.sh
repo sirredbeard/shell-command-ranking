@@ -6,7 +6,7 @@ export YOUR_GITHUB_TOKEN="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"
 echo "Getting the top 1000 repositories in batches of 100"
 for i in {1..10}; do
     echo "Getting batch of 100 number $i of 10"
-    repos_page=$(curl -H "Accept: application/vnd.github.v3+json" -H "Authorization: token $YOUR_GITHUB_TOKEN" "https://api.github.com/search/repositories?q=language:shell&sort=stars&per_page=100&page=$i" | jq -r '.items[].clone_url')
+    repos_page=$(curl -H "Accept: application/vnd.github.v3+json" -H "Authorization: token $YOUR_GITHUB_TOKEN" "https://api.github.com/search/repositories?q=language:bash&sort=stars&per_page=100&page=$i" | jq -r '.items[].clone_url')
     repos="$repos $repos_page"
     sleep_time=$((RANDOM % 20 + 10))
     echo "Sleeping for $sleep_time seconds..."
