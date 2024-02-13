@@ -23,7 +23,7 @@ includes:
     * 885 additionalprojects tagged as "fish" topic
     * 33 additional projects tagged as "tcsh" topic
     * 93 additional projects tagged as "ksh" topic
-    * additional projects tagged as "linux" topic
+    * 862 additional projects tagged as "linux" topic
     * additional projects tagged as "wsl" topic
     * additional projects tagged as "devops" topic
     * additional projects tagged as "azure" topic
