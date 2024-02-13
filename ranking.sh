@@ -23,10 +23,10 @@ for i in {1..10}; do
     # repos_page=$(curl -H "Accept: application/vnd.github.v3+json" -H "Authorization: token $YOUR_GITHUB_TOKEN" "https://api.github.com/search/repositories?q=topic:tcsh&sort=stars&per_page=100&page=$i" | jq -r '.items[].clone_url')
 
     # Get projects tagged with 'ksh' topic
-    repos_page=$(curl -H "Accept: application/vnd.github.v3+json" -H "Authorization: token $YOUR_GITHUB_TOKEN" "https://api.github.com/search/repositories?q=topic:ksh&sort=stars&per_page=100&page=$i" | jq -r '.items[].clone_url')
+    # repos_page=$(curl -H "Accept: application/vnd.github.v3+json" -H "Authorization: token $YOUR_GITHUB_TOKEN" "https://api.github.com/search/repositories?q=topic:ksh&sort=stars&per_page=100&page=$i" | jq -r '.items[].clone_url')
 
     # Get projects tagged with 'linux' topic
-    # repos_page=$(curl -H "Accept: application/vnd.github.v3+json" -H "Authorization: token $YOUR_GITHUB_TOKEN" "https://api.github.com/search/repositories?q=topic:linux&sort=stars&per_page=100&page=$i" | jq -r '.items[].clone_url')
+    repos_page=$(curl -H "Accept: application/vnd.github.v3+json" -H "Authorization: token $YOUR_GITHUB_TOKEN" "https://api.github.com/search/repositories?q=topic:linux&sort=stars&per_page=100&page=$i" | jq -r '.items[].clone_url')
 
     # Get projects tagged with 'wsl' topic
     # repos_page=$(curl -H "Accept: application/vnd.github.v3+json" -H "Authorization: token $YOUR_GITHUB_TOKEN" "https://api.github.com/search/repositories?q=topic:wsl&sort=stars&per_page=100&page=$i" | jq -r '.items[].clone_url')
@@ -44,6 +44,10 @@ for i in {1..10}; do
 done
 echo "Writing the list of repositories to repo_list.txt"
 echo "$repos" >> repo_list.txt
+
+# De-duplicate repo_list.txt
+# echo "De-duplicating repo_list.txt"
+# sort repo_list.txt | uniq > temp.txt && mv temp.txt repo_list.txt
 
 # Shallow clone each repository and clean up the repo of unwanted extensions if that was successful
 echo "Cloning each repository and cleaning up unwanted files"
@@ -65,7 +69,7 @@ for repo in repos/*; do
         for command in $commands; do
             ((command_counts["$command"]++))
         done
-    done < <(find "$repo" -name "*.sh" -o -name "*.bash" -o -name "Dockerfile" -o -name "*.zsh" -o -name "*.fish" -o -name "*.tcsh" -o -name "*.ksch")
+    done < <(find "$repo" -name "*.sh" -o -name "*.bash" -o -name "Dockerfile" -o -name "*.zsh" -o -name "*.fish" -o -name "*.tcsh" -o -name "*.ksh")
 done
 
 # Print the commands and their counts, sorted by count
