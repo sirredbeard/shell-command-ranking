@@ -392,6 +392,8 @@ file_extensions=(
     "hosts"
     "flv"
     "ilk"
+    "21"
+    "wasm"
 )
 
 # Get the directory to search from the command-line argument, or default to "repos"

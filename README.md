@@ -1,6 +1,6 @@
 # shell-command-ranking
 
-a dataset (command_ranking.txt) of shell commands used on popular github projects
+a [dataset](https://github.com/sirredbeard/shell-command-ranking/blob/main/command_ranking.txt) of the occurrence shell commands used on popular github projects
 includes: 
 * projects labeled as "shell" programming language
 * projects tagged with the bash, zsh, fish, tcsh, and ksh topics
@@ -19,7 +19,7 @@ includes:
 * github repos included in data sampling done on February 12, 2024
     * 990 projects labeled as "shell" programming language
     * 913 projects tagged as "bash" topic
-    * projects tagged as "zsh" topic
+    * 791 projects tagged as "zsh" topic
     * projects tagged as "fish" topic
     * projects tagged as "tcsh" topic
     * projects tagged as "ksh" topic
