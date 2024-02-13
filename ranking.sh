@@ -2,7 +2,7 @@
 
 export YOUR_GITHUB_TOKEN="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"
 
-# Get the top 1000 repositories
+# Get the top 1000 repositories for each programming language/topic
 echo "Getting the top 1000 repositories in batches of 100"
 for i in {1..10}; do
     echo "Getting batch of 100 number $i of 10"
@@ -32,10 +32,10 @@ for i in {1..10}; do
     # repos_page=$(curl -H "Accept: application/vnd.github.v3+json" -H "Authorization: token $YOUR_GITHUB_TOKEN" "https://api.github.com/search/repositories?q=topic:wsl&sort=stars&per_page=100&page=$i" | jq -r '.items[].clone_url')
 
     # Get projects tagged with 'devops' topic
-    repos_page=$(curl -H "Accept: application/vnd.github.v3+json" -H "Authorization: token $YOUR_GITHUB_TOKEN" "https://api.github.com/search/repositories?q=topic:devops&sort=stars&per_page=100&page=$i" | jq -r '.items[].clone_url')
+    # repos_page=$(curl -H "Accept: application/vnd.github.v3+json" -H "Authorization: token $YOUR_GITHUB_TOKEN" "https://api.github.com/search/repositories?q=topic:devops&sort=stars&per_page=100&page=$i" | jq -r '.items[].clone_url')
 
     # Get projects tagged with 'azure' topic
-    # repos_page=$(curl -H "Accept: application/vnd.github.v3+json" -H "Authorization: token $YOUR_GITHUB_TOKEN" "https://api.github.com/search/repositories?q=topic:azure&sort=stars&per_page=100&page=$i" | jq -r '.items[].clone_url')
+    repos_page=$(curl -H "Accept: application/vnd.github.v3+json" -H "Authorization: token $YOUR_GITHUB_TOKEN" "https://api.github.com/search/repositories?q=topic:azure&sort=stars&per_page=100&page=$i" | jq -r '.items[].clone_url')
 
     repos="$repos $repos_page"
     sleep_time=$((RANDOM % 20 + 10))

@@ -25,7 +25,7 @@ includes:
     * 93 additional projects tagged as "ksh" topic
     * 862 additional projects tagged as "linux" topic
     * 806 additional projects tagged as "wsl" topic
-    * additional projects tagged as "devops" topic
+    * 896 additional projects tagged as "devops" topic
     * additional projects tagged as "azure" topic
 
 ## command_ranking.txt - dataset
