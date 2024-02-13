@@ -4,6 +4,8 @@ a [dataset](https://github.com/sirredbeard/shell-command-ranking/blob/main/comma
 includes: 
 * projects labeled as "shell" programming language
 * projects tagged with the bash, zsh, fish, tcsh, ksh and additional relevant topics
+* 6,272 projects
+* 203,403 unique commands
 
 ## ranking.sh - script to collect data
 
@@ -16,7 +18,7 @@ includes:
 
 ## repo_list.txt - list of repos queried
 
-* github repos included in data sampling done on February 12, 2024
+* github repos included in data sampling done on February 12, 2024:
     * 990 projects labeled as "shell" programming language
     * 913 additional projects tagged as "bash" topic
     * 791 additionalprojects tagged as "zsh" topic
@@ -26,7 +28,6 @@ includes:
     * 862 additional projects tagged as "linux" topic
     * 806 additional projects tagged as "wsl" topic
     * 896 additional projects tagged as "devops" topic
-    * additional projects tagged as "azure" topic
 
 ## command_ranking.txt - dataset
 

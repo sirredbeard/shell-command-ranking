@@ -4,50 +4,25 @@ export YOUR_GITHUB_TOKEN="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"
 
 # Get the top 1000 repositories for each programming language/topic
 echo "Getting the top 1000 repositories in batches of 100"
-for i in {1..10}; do
-    echo "Getting batch of 100 number $i of 10"
-    
-    # Get projects labeled as Shell programming language
-    # repos_page=$(curl -H "Accept: application/vnd.github.v3+json" -H "Authorization: token $YOUR_GITHUB_TOKEN" "https://api.github.com/search/repositories?q=language:shell&sort=stars&per_page=100&page=$i" | jq -r '.items[].clone_url')
+topics=("language:shell" "topic:bash" "topic:zsh" "topic:fish" "topic:tcsh" "topic:ksh" "topic:linux" "topic:wsl" "topic:devops")
 
-    # Get projects tagged with 'bash' topic
-    # repos_page=$(curl -H "Accept: application/vnd.github.v3+json" -H "Authorization: token $YOUR_GITHUB_TOKEN" "https://api.github.com/search/repositories?q=topic:bash&sort=stars&per_page=100&page=$i" | jq -r '.items[].clone_url')
-
-    # Get projects tagged with 'zsh' topic
-    # repos_page=$(curl -H "Accept: application/vnd.github.v3+json" -H "Authorization: token $YOUR_GITHUB_TOKEN" "https://api.github.com/search/repositories?q=topic:zsh&sort=stars&per_page=100&page=$i" | jq -r '.items[].clone_url')
-    
-    # Get projects tagged with 'fish' topic
-    # repos_page=$(curl -H "Accept: application/vnd.github.v3+json" -H "Authorization: token $YOUR_GITHUB_TOKEN" "https://api.github.com/search/repositories?q=topic:fish&sort=stars&per_page=100&page=$i" | jq -r '.items[].clone_url')
-
-    # Get projects tagged with 'tcsh' topic
-    # repos_page=$(curl -H "Accept: application/vnd.github.v3+json" -H "Authorization: token $YOUR_GITHUB_TOKEN" "https://api.github.com/search/repositories?q=topic:tcsh&sort=stars&per_page=100&page=$i" | jq -r '.items[].clone_url')
-
-    # Get projects tagged with 'ksh' topic
-    # repos_page=$(curl -H "Accept: application/vnd.github.v3+json" -H "Authorization: token $YOUR_GITHUB_TOKEN" "https://api.github.com/search/repositories?q=topic:ksh&sort=stars&per_page=100&page=$i" | jq -r '.items[].clone_url')
-
-    # Get projects tagged with 'linux' topic
-    # repos_page=$(curl -H "Accept: application/vnd.github.v3+json" -H "Authorization: token $YOUR_GITHUB_TOKEN" "https://api.github.com/search/repositories?q=topic:linux&sort=stars&per_page=100&page=$i" | jq -r '.items[].clone_url')
-
-    # Get projects tagged with 'wsl' topic
-    # repos_page=$(curl -H "Accept: application/vnd.github.v3+json" -H "Authorization: token $YOUR_GITHUB_TOKEN" "https://api.github.com/search/repositories?q=topic:wsl&sort=stars&per_page=100&page=$i" | jq -r '.items[].clone_url')
-
-    # Get projects tagged with 'devops' topic
-    # repos_page=$(curl -H "Accept: application/vnd.github.v3+json" -H "Authorization: token $YOUR_GITHUB_TOKEN" "https://api.github.com/search/repositories?q=topic:devops&sort=stars&per_page=100&page=$i" | jq -r '.items[].clone_url')
-
-    # Get projects tagged with 'azure' topic
-    repos_page=$(curl -H "Accept: application/vnd.github.v3+json" -H "Authorization: token $YOUR_GITHUB_TOKEN" "https://api.github.com/search/repositories?q=topic:azure&sort=stars&per_page=100&page=$i" | jq -r '.items[].clone_url')
-
-    repos="$repos $repos_page"
-    sleep_time=$((RANDOM % 20 + 10))
-    echo "Sleeping for $sleep_time seconds..."
-    sleep $sleep_time
+for topic in "${topics[@]}"; do
+    for i in {1..10}; do
+        echo "Getting batch of 100 number $i of 10 for $topic"
+        repos_page=$(curl -H "Accept: application/vnd.github.v3+json" -H "Authorization: token $YOUR_GITHUB_TOKEN" "https://api.github.com/search/repositories?q=$topic&sort=stars&per_page=100&page=$i" | jq -r '.items[].clone_url')
+        repos="$repos $repos_page"
+        sleep_time=$((RANDOM % 20 + 10))
+        echo "Sleeping for $sleep_time seconds..."
+        sleep $sleep_time
+    done
 done
+
 echo "Writing the list of repositories to repo_list.txt"
 echo "$repos" >> repo_list.txt
 
 # De-duplicate repo_list.txt
-# echo "De-duplicating repo_list.txt"
-# sort repo_list.txt | uniq > temp.txt && mv temp.txt repo_list.txt
+echo "De-duplicating repo_list.txt"
+sort repo_list.txt | uniq > temp.txt && mv temp.txt repo_list.txt
 
 # Shallow clone each repository and clean up the repo of unwanted extensions if that was successful
 echo "Cloning each repository and cleaning up unwanted files"
