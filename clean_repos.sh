@@ -190,4 +190,4 @@ find $dir_to_search -type f -not -name "*.*" -exec rm -rf {} +
 
 # Delete .git folders
 echo "Deleting .git folders"
-find $dir_to_search -type d -name ".git" -exec rm -rf {} +
+find $dir_to_search -type d -name ".git" ! -path "*shell-command-ranking/.git*" -exec rm -rf {} +
