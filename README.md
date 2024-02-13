@@ -6,7 +6,7 @@
 * exports a list of those repos to repo_list.txt
 * shallow clones each of them to /repos
 * calls clean_repos.sh on each one to remove extraneous files to save space
-* searches for commands in *.sh, *.bash, and Dockerfiles
+* searches for commands in *.sh, *.bash, *.zsh, *.fish, and Dockerfiles
 * ranks those commands and outputs to command_ranking.txt
 
 ## repo_list.txt
