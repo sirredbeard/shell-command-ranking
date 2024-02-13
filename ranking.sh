@@ -13,7 +13,7 @@ for i in {1..10}; do
     sleep $sleep_time
 done
 echo "Writing the list of repositories to repo_list.txt"
-echo "$repos" > repo_list.txt
+echo "$repos" >> repo_list.txt
 
 # Shallow clone each repository and clean up the repo of unwanted extensions if that was successful
 echo "Cloning each repository and cleaning up unwanted files"

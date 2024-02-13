@@ -20,4 +20,4 @@
 ## clean_repos.sh
 
 * deletes extraneous files from the /repos/ dataset to reduce it's size, unless a specific folder is specified as an argument, then it just deleted extraneous files in that folder
-* using clean_repos.sh reduces the footprint of cloning ~1000 github repos to ~1.3 GB
+* using clean_repos.sh reduces the footprint of cloning ~1000 github repos to ~1 GB
