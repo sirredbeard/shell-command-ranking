@@ -6,7 +6,25 @@ export YOUR_GITHUB_TOKEN="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"
 echo "Getting the top 1000 repositories in batches of 100"
 for i in {1..10}; do
     echo "Getting batch of 100 number $i of 10"
-    repos_page=$(curl -H "Accept: application/vnd.github.v3+json" -H "Authorization: token $YOUR_GITHUB_TOKEN" "https://api.github.com/search/repositories?q=language:bash&sort=stars&per_page=100&page=$i" | jq -r '.items[].clone_url')
+    
+    # Get projects labeled as Shell programming language
+    # repos_page=$(curl -H "Accept: application/vnd.github.v3+json" -H "Authorization: token $YOUR_GITHUB_TOKEN" "https://api.github.com/search/repositories?q=language:shell&sort=stars&per_page=100&page=$i" | jq -r '.items[].clone_url')
+
+    # Get projects tagged with 'bash' topic
+    repos_page=$(curl -H "Accept: application/vnd.github.v3+json" -H "Authorization: token $YOUR_GITHUB_TOKEN" "https://api.github.com/search/repositories?q=topic:bash&sort=stars&per_page=100&page=$i" | jq -r '.items[].clone_url')
+
+    # Get projects tagged with 'zsh' topic
+    # repos_page=$(curl -H "Accept: application/vnd.github.v3+json" -H "Authorization: token $YOUR_GITHUB_TOKEN" "https://api.github.com/search/repositories?q=topic:zsh&sort=stars&per_page=100&page=$i" | jq -r '.items[].clone_url')
+    
+    # Get projects tagged with 'fish' topic
+    # repos_page=$(curl -H "Accept: application/vnd.github.v3+json" -H "Authorization: token $YOUR_GITHUB_TOKEN" "https://api.github.com/search/repositories?q=topic:fish&sort=stars&per_page=100&page=$i" | jq -r '.items[].clone_url')
+
+    # Get projects tagged with 'tcsh' topic
+    # repos_page=$(curl -H "Accept: application/vnd.github.v3+json" -H "Authorization: token $YOUR_GITHUB_TOKEN" "https://api.github.com/search/repositories?q=topic:tcsh&sort=stars&per_page=100&page=$i" | jq -r '.items[].clone_url')
+
+    # Get projects tagged with 'ksh' topic
+    # repos_page=$(curl -H "Accept: application/vnd.github.v3+json" -H "Authorization: token $YOUR_GITHUB_TOKEN" "https://api.github.com/search/repositories?q=topic:ksh&sort=stars&per_page=100&page=$i" | jq -r '.items[].clone_url')
+
     repos="$repos $repos_page"
     sleep_time=$((RANDOM % 20 + 10))
     echo "Sleeping for $sleep_time seconds..."
@@ -35,7 +53,7 @@ for repo in repos/*; do
         for command in $commands; do
             ((command_counts["$command"]++))
         done
-    done < <(find "$repo" -name "*.sh" -o -name "*.bash" -o -name "Dockerfile" -o -name "*.zsh" -o -name "*.fish")
+    done < <(find "$repo" -name "*.sh" -o -name "*.bash" -o -name "Dockerfile" -o -name "*.zsh" -o -name "*.fish" -o -name "*.tcsh" -o -name "*.ksch")
 done
 
 # Print the commands and their counts, sorted by count

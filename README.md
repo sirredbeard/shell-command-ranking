@@ -2,21 +2,23 @@
 
 ## ranking.sh
 
-* gets 1000 github repos labeled as containing a shell script language ranked by github stars, 10 batches of 100 at a time, with a random sleep to avoid the github rate limit
+* gets 1000 github repos labeled as containing a shell script language ranked by github stars, 10 batches of 100 at a time (max is 1000 at a time), with a random sleep to avoid the github rate limit
 * exports a list of those repos to repo_list.txt
 * shallow clones each of them to /repos
 * calls clean_repos.sh on each one to remove extraneous files to save space
 * searches for commands in *.sh, *.bash, *.zsh, *.fish, and Dockerfiles
 * ranks those commands and outputs to command_ranking.txt
+* the label in the GitHub API call can be changed to search for shell, bash, zsh, and fish labels
 
 ## repo_list.txt
 
 * github repos included in data sampling done on February 12, 2024
-    * ~1000 projects tagged as "shell"
-    * ~1000 projects tagged as "bash"
-    * ~1000 projects tagged as "zsh"
-    * ~1000 projects tagged as "fish"
-* even if the github api returned duplicate projects, the ranking.sh will not git clone duplicate projects, so that will not affect totals in command_ranking.txt
+    * 990 projects labeled as "shell" programming language
+    * projects tagged as "bash" topic
+    * projects tagged as "zsh" topic
+    * projects tagged as "fish" topic
+    * projects tagged as "tcsh" topic
+    * projects tagged as "ksh" topic
 
 ## command_ranking.txt
 
