@@ -35,7 +35,7 @@ for repo in repos/*; do
         for command in $commands; do
             ((command_counts["$command"]++))
         done
-    done < <(find "$repo" -name "*.sh" -o -name "*.bash" -o -name "Dockerfile")
+    done < <(find "$repo" -name "*.sh" -o -name "*.bash" -o -name "Dockerfile" -o -name "*.zsh" -o -name "*.fish")
 done
 
 # Print the commands and their counts, sorted by count
