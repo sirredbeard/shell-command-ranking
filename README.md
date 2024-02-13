@@ -20,9 +20,11 @@ includes:
     * 990 projects labeled as "shell" programming language
     * 913 projects tagged as "bash" topic
     * 791 projects tagged as "zsh" topic
-    * projects tagged as "fish" topic
+    * 885 projects tagged as "fish" topic
     * projects tagged as "tcsh" topic
     * projects tagged as "ksh" topic
+    * projects tagged as "linux" topic
+    * projects tagged as "wsl" topic
 
 ## command_ranking.txt - dataset
 

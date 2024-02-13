@@ -17,13 +17,16 @@ for i in {1..10}; do
     # repos_page=$(curl -H "Accept: application/vnd.github.v3+json" -H "Authorization: token $YOUR_GITHUB_TOKEN" "https://api.github.com/search/repositories?q=topic:zsh&sort=stars&per_page=100&page=$i" | jq -r '.items[].clone_url')
     
     # Get projects tagged with 'fish' topic
-    repos_page=$(curl -H "Accept: application/vnd.github.v3+json" -H "Authorization: token $YOUR_GITHUB_TOKEN" "https://api.github.com/search/repositories?q=topic:fish&sort=stars&per_page=100&page=$i" | jq -r '.items[].clone_url')
+    # repos_page=$(curl -H "Accept: application/vnd.github.v3+json" -H "Authorization: token $YOUR_GITHUB_TOKEN" "https://api.github.com/search/repositories?q=topic:fish&sort=stars&per_page=100&page=$i" | jq -r '.items[].clone_url')
 
     # Get projects tagged with 'tcsh' topic
-    # repos_page=$(curl -H "Accept: application/vnd.github.v3+json" -H "Authorization: token $YOUR_GITHUB_TOKEN" "https://api.github.com/search/repositories?q=topic:tcsh&sort=stars&per_page=100&page=$i" | jq -r '.items[].clone_url')
+    repos_page=$(curl -H "Accept: application/vnd.github.v3+json" -H "Authorization: token $YOUR_GITHUB_TOKEN" "https://api.github.com/search/repositories?q=topic:tcsh&sort=stars&per_page=100&page=$i" | jq -r '.items[].clone_url')
 
     # Get projects tagged with 'ksh' topic
     # repos_page=$(curl -H "Accept: application/vnd.github.v3+json" -H "Authorization: token $YOUR_GITHUB_TOKEN" "https://api.github.com/search/repositories?q=topic:ksh&sort=stars&per_page=100&page=$i" | jq -r '.items[].clone_url')
+
+    # Get projects tagged with 'linux' topic
+    # repos_page=$(curl -H "Accept: application/vnd.github.v3+json" -H "Authorization: token $YOUR_GITHUB_TOKEN" "https://api.github.com/search/repositories?q=topic:linux&sort=stars&per_page=100&page=$i" | jq -r '.items[].clone_url')
 
     repos="$repos $repos_page"
     sleep_time=$((RANDOM % 20 + 10))
