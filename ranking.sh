@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export YOUR_GITHUB_TOKEN="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"
+export YOUR_GITHUB_TOKEN=""
 
 # Get the top 1000 repositories for each programming language/topic
 echo "Getting the top 1000 repositories in batches of 100"
