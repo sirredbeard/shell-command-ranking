@@ -37,3 +37,8 @@ includes:
 
 * deletes extraneous files from the /repos/ dataset to reduce it's size, unless a specific folder is specified as an argument, then it just deleted extraneous files in that folder
 * using clean_repos.sh reduces the footprint of cloning ~1000 github repos to ~1 GB
+
+### License
+
+* Scripts ending *.sh, README.md, and *git files are licensed under [Apache 2.0](https://github.com/sirredbeard/shell-command-ranking/blob/main/LICENSE-scripts)
+* Data, including command_ranking.txt and repo_list.txt, are licensed under [CC-SA-4 International](https://github.com/sirredbeard/shell-command-ranking/blob/main/LICENSE-dataset)
