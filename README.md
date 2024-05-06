@@ -1,6 +1,6 @@
 # shell-command-ranking
 
-a [dataset](https://github.com/sirredbeard/shell-command-ranking/blob/main/command_ranking.txt) of the occurrence shell commands used on popular github projects
+a [dataset](https://github.com/sirredbeard/shell-command-ranking/raw/main/command_ranking.txt) of the occurrence shell commands used on popular github projects
 includes: 
 * projects labeled as "shell" programming language
 * projects tagged with the bash, zsh, fish, tcsh, ksh and additional relevant topics
