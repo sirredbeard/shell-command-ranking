@@ -34,7 +34,7 @@ done
 echo "Searching each repository for shell commands"
 declare -A command_counts
 for repo in repos/*; do
-    # Find all .sh, .bash files and Dockerfiles
+    # Find all shell and Dockerfiles
     while read -r file; do
         if [[ $file == *Dockerfile ]]; then
             commands=$(grep -oP '^RUN\s*\K\w+' "$file")
